@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Priya Chand's biolink page, showcasing her profile and links to important resources.">
+    <meta name="keywords" content="Priya Chand, Biolink, Aged Care, Food Science">
+    <title>Priya Chand - Biolink</title>
+    <link rel="stylesheet" href="biolink.css">
+    <script src="https://kit.fontawesome.com/4568f49300.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Welcome</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Profile Section -->
+            <!-- Hero Section -->
+            <section id="hero" class="container">
+                <img src="https://i.imgur.com/dlTKRJe.png" alt="Priya Chand" class="profile-pic" loading="lazy">
+                <h1></h1>
+            <h2 class="typing-text">Hi, I’m <span class="highlight">Priya Chand</span></h2>
+
+            <p class="subtitle">Aged Care Professional | Food Science Graduate</p>
+                <br>
+
+                <p class="catchy-phrase">A passionate food science student at Western Sydney University. I strive to combine empathy and professionalism to make a meaningful impact on people's lives.
+                </p>
+        </section>
+
+        <!-- Links Section -->
+        <section id="links">
+            <a href="#" class="link-btn">LinkedIn</a>
+            <a href="https://github.com/" class="link-btn">Portfolio</a>
+            <a href="#" class="link-btn">Instagram</a>
+            <a href="#" class="link-btn">YouTube</a>
+            <a href="#" class="link-btn">Blog</a>
+            <a href="#" class="link-btn">Shop My Collections</a>
+            <button class="link-btn contact-btn" id="contact-btn">Contact Me</button>
+        </section>
+
+        <!-- Contact Modal -->
+        <div id="contact-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2>Contact Me</h2>
+                <form id="contact-form" action="https://formspree.io/f/xqakvjvz" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <button class="close-btn" id="close-modal">Close</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Priya Chand</p>
+    </footer>
+
+    <script src="biolink.js"></script>
+</body>
+</html>
